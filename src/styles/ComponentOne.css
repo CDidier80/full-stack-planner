@@ -1,0 +1,49 @@
+section.dropdown {
+    width: 200px;
+    height: 99%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    background-color: rgb(48, 43, 99);
+    overflow: auto;
+}
+
+    .dropdownHeader {
+        flex-basis: 10%;
+        display: flex;
+        flex-direction: column;
+        border: 1px black solid;
+        
+    }
+
+            .compOneText {
+                margin: auto;
+                flex-basis: 66%;
+            }
+
+            .subtitle {
+                margin: auto;
+                flex-basis: 34%;
+            }
+
+
+    .scroll {
+        flex-basis: 80%;
+        background-color:  rgb(165, 230, 158);
+        color: rgb(10, 7, 75);
+        border: solid 1px black;
+        overflow: auto;
+    }
+
+        .scrollItem {
+            border: black 1px solid;
+            height: 27px;
+            padding-top: 7px;
+        }
+
+    .scrollFooter {
+        background-color: rgb(48, 43, 99);
+        flex-basis: 10%;
+    }
